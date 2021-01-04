@@ -16,10 +16,10 @@
     <meta property="og:description" content="If you're looking for a particular category to read about, you can choose them here.">
     <meta property="og:type" content="website">
     
-    <meta property="og:image" content="https://blog.liamsnowdon.co.uk/assets/images/blog.jpg">
+    <meta property="og:image" content="https://blog.liamsnowdon.uk/assets/images/blog.jpg">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="627">
-    <meta property="og:url" content="https://blog.liamsnowdon.co.uk/categories">
+    <meta property="og:url" content="https://blog.liamsnowdon.uk/categories">
     <meta property="og:site_name" content="Liam Snowdon | Blog">
     
     <meta name="twitter:card" content="summary">
@@ -38,23 +38,31 @@
     <script src="https://unpkg.com/scrollreveal@4.0.7/dist/scrollreveal.js"></script>
 
     <!-- inject:css -->
-    <link rel="stylesheet" href="/assets/css/styles.css?v=20210431312631">
+    <link rel="stylesheet" href="/assets/css/styles.css?v=20210491347469">
     <!-- endinject -->
   </head>
   <body>
     <nav class="l-navigation js-navigation">
     <div class="l-navigation__links">
         <a class="l-navigation__link l-navigation__link--home" href="/">Blog</a>
+        
+        <div class="l-navigation__lists">
+            <ul class="l-navigation__list">
+                <li class="l-navigation__item">
+                    <a class="l-navigation__link" href="/categories">Categories</a>
+                </li>
 
-        <ul class="l-navigation__list">
-            <li class="l-navigation__item">
-                <a class="l-navigation__link" href="/categories">Categories</a>
-            </li>
+                <li class="l-navigation__item">
+                    <a class="l-navigation__link" href="/tags">Tags</a>
+                </li>
+            </ul>
 
-            <li class="l-navigation__item">
-                <a class="l-navigation__link" href="/tags">Tags</a>
-            </li>
-        </ul>
+            <ul class="l-navigation__list l-navigation__list--right">
+                <li class="l-navigation__item">
+                    <a class="l-navigation__link" href="https://liamsnowdon.uk" target="_blank">Visit Portfolio</a>
+                </li>
+            </ul>
+        </div>
     </div>
 </nav>
 
@@ -117,7 +125,9 @@
               <div class="l-grid__column l-grid__column--12 l-grid__column--medium-6">
                 
   <div class="c-pod load-hidden js-pod">
-    <div class="c-pod__image" style="background-image: url('/assets/images/categories/html/html.jpg')"></div>
+    <div class="c-pod__image-cont">
+      <img class="c-pod__image" src="/assets/images/categories/html/html.jpg" alt="HTML" />
+    </div>
     <div class="c-pod__content">
       <h5 class="c-pod__title">HTML</h4>
       <p class="c-pod__intro">
@@ -135,7 +145,9 @@
               <div class="l-grid__column l-grid__column--12 l-grid__column--medium-6">
                 
   <div class="c-pod load-hidden js-pod">
-    <div class="c-pod__image" style="background-image: url('/assets/images/categories/css/css.jpg')"></div>
+    <div class="c-pod__image-cont">
+      <img class="c-pod__image" src="/assets/images/categories/css/css.jpg" alt="CSS" />
+    </div>
     <div class="c-pod__content">
       <h5 class="c-pod__title">CSS</h4>
       <p class="c-pod__intro">
@@ -153,7 +165,9 @@
               <div class="l-grid__column l-grid__column--12 l-grid__column--medium-6">
                 
   <div class="c-pod load-hidden js-pod">
-    <div class="c-pod__image" style="background-image: url('/assets/images/categories/javascript/javascript.jpg')"></div>
+    <div class="c-pod__image-cont">
+      <img class="c-pod__image" src="/assets/images/categories/javascript/javascript.jpg" alt="JavaScript" />
+    </div>
     <div class="c-pod__content">
       <h5 class="c-pod__title">JavaScript</h4>
       <p class="c-pod__intro">
@@ -171,7 +185,9 @@
               <div class="l-grid__column l-grid__column--12 l-grid__column--medium-6">
                 
   <div class="c-pod load-hidden js-pod">
-    <div class="c-pod__image" style="background-image: url('/assets/images/blog.jpg')"></div>
+    <div class="c-pod__image-cont">
+      <img class="c-pod__image" src="/assets/images/blog.jpg" alt="General" />
+    </div>
     <div class="c-pod__content">
       <h5 class="c-pod__title">General</h4>
       <p class="c-pod__intro">
@@ -207,6 +223,7 @@
         </nav>
         <div class="l-footer__social">
             <h6>Liam Snowdon's Blog</h6>
+            <p>You can visit my portfolio site <a href="https://liamsnowdon.uk" target="_blank">here</a>.</p>
             <div class="l-footer__social-links">
                 <a href="https://www.linkedin.com/in/liam-snowdon/" target="_blank" class="l-footer__social-link">
                     <i class="fab fa-linkedin"></i>
@@ -220,7 +237,7 @@
 </footer>
 
     <!-- inject:js -->
-    <script src="/assets/js/main.js?v=20210431312631"></script>
+    <script src="/assets/js/main.js?v=20210491347469"></script>
     <!-- endinject -->
 
      

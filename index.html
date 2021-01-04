@@ -16,10 +16,10 @@
     <meta property="og:description" content="Welcome to my blog! A place for fancy, cool front end tips and tricks!">
     <meta property="og:type" content="website">
     
-    <meta property="og:image" content="https://blog.liamsnowdon.co.uk/assets/images/blog.jpg">
+    <meta property="og:image" content="https://blog.liamsnowdon.uk/assets/images/blog.jpg">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="627">
-    <meta property="og:url" content="https://blog.liamsnowdon.co.uk">
+    <meta property="og:url" content="https://blog.liamsnowdon.uk">
     <meta property="og:site_name" content="Liam Snowdon | Blog">
     
     <meta name="twitter:card" content="summary">
@@ -38,23 +38,31 @@
     <script src="https://unpkg.com/scrollreveal@4.0.7/dist/scrollreveal.js"></script>
 
     <!-- inject:css -->
-    <link rel="stylesheet" href="/assets/css/styles.css?v=20210431312631">
+    <link rel="stylesheet" href="/assets/css/styles.css?v=20210491347469">
     <!-- endinject -->
   </head>
   <body>
     <nav class="l-navigation js-navigation">
     <div class="l-navigation__links">
         <a class="l-navigation__link l-navigation__link--home" href="/">Blog</a>
+        
+        <div class="l-navigation__lists">
+            <ul class="l-navigation__list">
+                <li class="l-navigation__item">
+                    <a class="l-navigation__link" href="/categories">Categories</a>
+                </li>
 
-        <ul class="l-navigation__list">
-            <li class="l-navigation__item">
-                <a class="l-navigation__link" href="/categories">Categories</a>
-            </li>
+                <li class="l-navigation__item">
+                    <a class="l-navigation__link" href="/tags">Tags</a>
+                </li>
+            </ul>
 
-            <li class="l-navigation__item">
-                <a class="l-navigation__link" href="/tags">Tags</a>
-            </li>
-        </ul>
+            <ul class="l-navigation__list l-navigation__list--right">
+                <li class="l-navigation__item">
+                    <a class="l-navigation__link" href="https://liamsnowdon.uk" target="_blank">Visit Portfolio</a>
+                </li>
+            </ul>
+        </div>
     </div>
 </nav>
 
@@ -178,10 +186,11 @@
 
   <div class="c-recent-post js-pod load-hidden">
     <a 
-      class="c-recent-post__image"
+      class="c-recent-post__image-cont"
       href="/posts/precompiling-nunjucks"
-      style="background-image: url('/assets/images/posts/precompiling-nunjucks/precompiling-nunjucks-thumbnail.jpg')"
-    ></a>
+    >
+      <img class="c-recent-post__image" src="/assets/images/posts/precompiling-nunjucks/precompiling-nunjucks-thumbnail.jpg" alt="Pre-compiling Nunjucks templates with Gulp" />
+    </a>
     <div class="c-recent-post__content">
       <h3 class="c-recent-post__title">Pre-compiling Nunjucks templates with Gulp</h3>
       <h5 class="c-recent-post__subtitle">
@@ -229,11 +238,12 @@
   
 
   <div class="c-post js-pod load-hidden">
-    <a 
-      class="c-post__image"
+    <a
+      class="c-post__image-cont" 
       href="/posts/handling-responsive-images"
-      style="background-image: url('/assets/images/posts/handling-responsive-images/handling-responsive-images-thumbnail.jpg')"
-    ></a>
+    >
+      <img class="c-post__image" src="/assets/images/posts/handling-responsive-images/handling-responsive-images-thumbnail.jpg" alt="Handling responsive images" />
+    </a>
   
     <div class="c-post__content">
       <span class="ws-no-wrap d-block mb-10 fw-700">15/12/2020 |
@@ -271,11 +281,12 @@
   
 
   <div class="c-post js-pod load-hidden">
-    <a 
-      class="c-post__image"
+    <a
+      class="c-post__image-cont" 
       href="/posts/mobile-button-hover-states"
-      style="background-image: url('/assets/images/posts/mobile-button-hover-states/mobile-button-hover-states-thumbnail.jpg')"
-    ></a>
+    >
+      <img class="c-post__image" src="/assets/images/posts/mobile-button-hover-states/mobile-button-hover-states-thumbnail.jpg" alt="Handling button hover states for touchscreen devices" />
+    </a>
   
     <div class="c-post__content">
       <span class="ws-no-wrap d-block mb-10 fw-700">22/12/2020 |
@@ -313,11 +324,12 @@
   
 
   <div class="c-post js-pod load-hidden">
-    <a 
-      class="c-post__image"
+    <a
+      class="c-post__image-cont" 
       href="/posts/precompiling-nunjucks"
-      style="background-image: url('/assets/images/posts/precompiling-nunjucks/precompiling-nunjucks-thumbnail.jpg')"
-    ></a>
+    >
+      <img class="c-post__image" src="/assets/images/posts/precompiling-nunjucks/precompiling-nunjucks-thumbnail.jpg" alt="Pre-compiling Nunjucks templates with Gulp" />
+    </a>
   
     <div class="c-post__content">
       <span class="ws-no-wrap d-block mb-10 fw-700">5/1/2021 |
@@ -367,11 +379,12 @@
   
 
   <div class="c-post js-pod load-hidden">
-    <a 
-      class="c-post__image"
+    <a
+      class="c-post__image-cont" 
       href="/posts/precompiling-nunjucks"
-      style="background-image: url('/assets/images/posts/precompiling-nunjucks/precompiling-nunjucks-thumbnail.jpg')"
-    ></a>
+    >
+      <img class="c-post__image" src="/assets/images/posts/precompiling-nunjucks/precompiling-nunjucks-thumbnail.jpg" alt="Pre-compiling Nunjucks templates with Gulp" />
+    </a>
   
     <div class="c-post__content">
       <span class="ws-no-wrap d-block mb-10 fw-700">5/1/2021 |
@@ -407,11 +420,12 @@
   
 
   <div class="c-post js-pod load-hidden">
-    <a 
-      class="c-post__image"
+    <a
+      class="c-post__image-cont" 
       href="/posts/mobile-button-hover-states"
-      style="background-image: url('/assets/images/posts/mobile-button-hover-states/mobile-button-hover-states-thumbnail.jpg')"
-    ></a>
+    >
+      <img class="c-post__image" src="/assets/images/posts/mobile-button-hover-states/mobile-button-hover-states-thumbnail.jpg" alt="Handling button hover states for touchscreen devices" />
+    </a>
   
     <div class="c-post__content">
       <span class="ws-no-wrap d-block mb-10 fw-700">22/12/2020 |
@@ -447,11 +461,12 @@
   
 
   <div class="c-post js-pod load-hidden">
-    <a 
-      class="c-post__image"
+    <a
+      class="c-post__image-cont" 
       href="/posts/handling-responsive-images"
-      style="background-image: url('/assets/images/posts/handling-responsive-images/handling-responsive-images-thumbnail.jpg')"
-    ></a>
+    >
+      <img class="c-post__image" src="/assets/images/posts/handling-responsive-images/handling-responsive-images-thumbnail.jpg" alt="Handling responsive images" />
+    </a>
   
     <div class="c-post__content">
       <span class="ws-no-wrap d-block mb-10 fw-700">15/12/2020 |
@@ -487,11 +502,12 @@
   
 
   <div class="c-post js-pod load-hidden">
-    <a 
-      class="c-post__image"
+    <a
+      class="c-post__image-cont" 
       href="/posts/integrating-gulp-into-your-workflow"
-      style="background-image: url('/assets/images/posts/gulp/gulp-thumbnail.jpg')"
-    ></a>
+    >
+      <img class="c-post__image" src="/assets/images/posts/gulp/gulp-thumbnail.jpg" alt="Integrating Gulp into your workflow" />
+    </a>
   
     <div class="c-post__content">
       <span class="ws-no-wrap d-block mb-10 fw-700">8/12/2020 |
@@ -527,11 +543,12 @@
   
 
   <div class="c-post js-pod load-hidden">
-    <a 
-      class="c-post__image"
+    <a
+      class="c-post__image-cont" 
       href="/posts/new-blog"
-      style="background-image: url('/assets/images/posts/new-blog/new-blog-thumbnail.jpg')"
-    ></a>
+    >
+      <img class="c-post__image" src="/assets/images/posts/new-blog/new-blog-thumbnail.jpg" alt="I made a blog!" />
+    </a>
   
     <div class="c-post__content">
       <span class="ws-no-wrap d-block mb-10 fw-700">1/12/2020 |
@@ -572,6 +589,7 @@
         </nav>
         <div class="l-footer__social">
             <h6>Liam Snowdon's Blog</h6>
+            <p>You can visit my portfolio site <a href="https://liamsnowdon.uk" target="_blank">here</a>.</p>
             <div class="l-footer__social-links">
                 <a href="https://www.linkedin.com/in/liam-snowdon/" target="_blank" class="l-footer__social-link">
                     <i class="fab fa-linkedin"></i>
@@ -585,11 +603,11 @@
 </footer>
 
     <!-- inject:js -->
-    <script src="/assets/js/main.js?v=20210431312631"></script>
+    <script src="/assets/js/main.js?v=20210491347469"></script>
     <!-- endinject -->
 
      
-  <script src="/assets/js/pages/homepage.js?v=2021043136386"></script>
+  <script src="/assets/js/pages/homepage.js?v=20210491341507"></script>
 
   </body>
 </html>

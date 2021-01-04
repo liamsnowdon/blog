@@ -16,10 +16,10 @@
     <meta property="og:description" content="Posts are given tags to make it easy to find posts about a particular area.">
     <meta property="og:type" content="website">
     
-    <meta property="og:image" content="https://blog.liamsnowdon.co.uk/assets/images/blog.jpg">
+    <meta property="og:image" content="https://blog.liamsnowdon.uk/assets/images/blog.jpg">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="627">
-    <meta property="og:url" content="https://blog.liamsnowdon.co.uk/tags">
+    <meta property="og:url" content="https://blog.liamsnowdon.uk/tags">
     <meta property="og:site_name" content="Liam Snowdon | Blog">
     
     <meta name="twitter:card" content="summary">
@@ -38,23 +38,31 @@
     <script src="https://unpkg.com/scrollreveal@4.0.7/dist/scrollreveal.js"></script>
 
     <!-- inject:css -->
-    <link rel="stylesheet" href="/assets/css/styles.css?v=20210431312631">
+    <link rel="stylesheet" href="/assets/css/styles.css?v=20210491347469">
     <!-- endinject -->
   </head>
   <body>
     <nav class="l-navigation js-navigation">
     <div class="l-navigation__links">
         <a class="l-navigation__link l-navigation__link--home" href="/">Blog</a>
+        
+        <div class="l-navigation__lists">
+            <ul class="l-navigation__list">
+                <li class="l-navigation__item">
+                    <a class="l-navigation__link" href="/categories">Categories</a>
+                </li>
 
-        <ul class="l-navigation__list">
-            <li class="l-navigation__item">
-                <a class="l-navigation__link" href="/categories">Categories</a>
-            </li>
+                <li class="l-navigation__item">
+                    <a class="l-navigation__link" href="/tags">Tags</a>
+                </li>
+            </ul>
 
-            <li class="l-navigation__item">
-                <a class="l-navigation__link" href="/tags">Tags</a>
-            </li>
-        </ul>
+            <ul class="l-navigation__list l-navigation__list--right">
+                <li class="l-navigation__item">
+                    <a class="l-navigation__link" href="https://liamsnowdon.uk" target="_blank">Visit Portfolio</a>
+                </li>
+            </ul>
+        </div>
     </div>
 </nav>
 
@@ -117,7 +125,9 @@
               <div class="l-grid__column l-grid__column--12 l-grid__column--medium-4">
                 
   <div class="c-pod js-pod">
-    <div class="c-pod__image" style="background-image: url('/assets/images/tags/responsive.jpg')"></div>
+    <div class="c-pod__image-cont">
+      <img class="c-pod__image" src="/assets/images/tags/responsive.jpg" alt="Responsive" />
+    </div>
     <div class="c-pod__content">
       <h5 class="c-pod__title">Responsive</h4>
       <p class="c-pod__intro">
@@ -135,7 +145,9 @@
               <div class="l-grid__column l-grid__column--12 l-grid__column--medium-4">
                 
   <div class="c-pod js-pod">
-    <div class="c-pod__image" style="background-image: url('/assets/images/tags/workflow.jpg')"></div>
+    <div class="c-pod__image-cont">
+      <img class="c-pod__image" src="/assets/images/tags/workflow.jpg" alt="Workflow" />
+    </div>
     <div class="c-pod__content">
       <h5 class="c-pod__title">Workflow</h4>
       <p class="c-pod__intro">
@@ -171,6 +183,7 @@
         </nav>
         <div class="l-footer__social">
             <h6>Liam Snowdon's Blog</h6>
+            <p>You can visit my portfolio site <a href="https://liamsnowdon.uk" target="_blank">here</a>.</p>
             <div class="l-footer__social-links">
                 <a href="https://www.linkedin.com/in/liam-snowdon/" target="_blank" class="l-footer__social-link">
                     <i class="fab fa-linkedin"></i>
@@ -184,7 +197,7 @@
 </footer>
 
     <!-- inject:js -->
-    <script src="/assets/js/main.js?v=20210431312631"></script>
+    <script src="/assets/js/main.js?v=20210491347469"></script>
     <!-- endinject -->
 
      

@@ -8,7 +8,7 @@
         "author": "Liam Snowdon",
         "title": "Pre-compiling Nunjucks templates with Gulp",
         "intro": "Nunjucks is great for templating your HTML, but it's even better when that markup is pre-compiled at build time.",
-        "datePosted": "2021-01-05T00:00:00.000Z",
+        "datePosted": "5/1/2021",
         "category": {
             "id": 3,
             "file": "javascript",
@@ -37,7 +37,7 @@
         "author": "Liam Snowdon",
         "title": "Handling button hover states for touchscreen devices",
         "intro": "On mobile devices hover states tend to stick unlike desktop. The workaround is to use a special media query.",
-        "datePosted": "2020-12-22T00:00:00.000Z",
+        "datePosted": "22/12/2020",
         "category": {
             "id": 2,
             "file": "css",
@@ -66,7 +66,7 @@
         "author": "Liam Snowdon",
         "title": "Handling responsive images",
         "intro": "Sometimes we want an image to look slightly different across devices or show a different image entirely.",
-        "datePosted": "2020-12-15T00:00:00.000Z",
+        "datePosted": "15/12/2020",
         "category": {
             "id": 1,
             "file": "html",
@@ -95,7 +95,7 @@
         "author": "Liam Snowdon",
         "title": "Integrating Gulp into your workflow",
         "intro": "A task runner will make performing those repetitive tasks a lot more efficient and lets you worry about the actual development.",
-        "datePosted": "2020-12-08T00:00:00.000Z",
+        "datePosted": "8/12/2020",
         "category": {
             "id": 3,
             "file": "javascript",

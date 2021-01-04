@@ -16,7 +16,7 @@
     <meta property="og:description" content="A task runner will make performing those repetitive tasks a lot more efficient and lets you worry about the actual development.">
     <meta property="og:type" content="article">
     
-  <meta property="article:published_time" content="2019-12-25T00:00:00.000Z">
+  <meta property="article:published_time" content="2020-12-08T00:00:00.000Z">
   <meta property="article:author" content="Liam Snowdon">
   
   
@@ -47,7 +47,7 @@
     <script src="https://unpkg.com/scrollreveal@4.0.7/dist/scrollreveal.js"></script>
 
     <!-- inject:css -->
-    <link rel="stylesheet" href="/assets/css/styles.css?v=202103225732611">
+    <link rel="stylesheet" href="/assets/css/styles.css?v=20210425328117">
     <!-- endinject -->
   </head>
   <body>
@@ -92,7 +92,7 @@
         </div>
         
         <div class="post-hero__right">
-          <h5><strong>Posted:</strong> Wednesday 25th December 2019</h5>
+          <h5><strong>Posted:</strong> Tuesday 8th December 2020</h5>
             
           <h5><strong>Category:</strong> <a href="/categories/javascript.html">JavaScript</a></h5>
           
@@ -102,7 +102,7 @@
               
                 
                 
-                <a href="/tags/workflow.html">Workflow</a>
+                <a href="/tags/workflow.html">workflow</a>
               
             </h5>
           
@@ -175,19 +175,18 @@
 <ul>
 <li>Compiling Sass to CSS.</li>
 <li>Running CSS through PostCSS</li>
-<li>Miniying CSS and JS</li>
+<li>Minifying CSS and JS</li>
 <li>Automatically adding browser prefixes for CSS properties</li>
 <li>Concatenating CSS and JS files together</li>
 </ul>
 <p>Let's take a look at how we can create a basic Gulp workflow, but first we will need to install the gulp-cli globally so we can use the Gulp commands in the terminal.</p>
 <pre class="language-markup"><code>npm install -g gulp-cli</code></pre>
-<p>Nice! We're now ready to start the project. For the rest of this article, this will be the following file structure we will be using:</p>
-<p><img src="assets/images/posts/gulp/file-structure.jpg" alt="File structure for using Gulp" /></p>
+<p>Nice! We're now ready to start the project.
 <p>&nbsp;</p>
 <h2>Preparing the project</h2>
 <p>First we need to initialise the project for packages, we will use NPM for this.</p>
 <pre class="language-markup"><code>npm init</code></pre>
-<p>This will take you throught the process of setting up the project and allow you to install node packages. If you take a look inside the project, you will see a file called <code class="b-inline-code">package.json</code>. This is where you will be saving all the development dependencies that Gulp will be using. We can now install gulp.</p>
+<p>This will take you through the process of setting up the project and allow you to install node packages. If you take a look inside the project, you will now see a file called <code class="b-inline-code">package.json</code>. This is where you will be saving all the development dependencies that Gulp will be using. We can now install Gulp locally.</p>
 <pre class="language-markup"><code>npm install --save-dev gulp</code></pre>
 <p>If you look inside <code class="b-inline-code">package.json</code> again you will see Gulp as a development dependency and its files will now be inside the node_modules folder that NPM creates. Gulp is now ready to be used!</p>
 <p>&nbsp;</p>
@@ -230,7 +229,7 @@ const concat = require('gulp-concat');
 const uglify = require('gulp-uglify');</code></pre>
 <p>&nbsp;</p>
 <h2>CSS Task</h2>
-<p>Let's create our first real task, which will process our CSS. You can go ahead and delete the test function and export for it that we wrote earlier.</p>
+<p>Let's create our first real task, which will process our CSS. You can delete the test function and export for it that we wrote earlier.</p>
 <pre class="language-javascript"><code>// gulpfile.js
 
 const postcssPlugins = [
@@ -278,7 +277,7 @@ exports.js = js;</code></pre>
 <ol>
 <li>Gets all JS files inside the JS folder</li>
 <li>Concatenates them together into a singular <code class="b-inline-code">main.js</code> file</li>
-<li>Minfies it with gulp-uglify, logging logging an error message if it encounters an error.</li>
+<li>Minifies it with gulp-uglify, logging an error message if it encounters an error.</li>
 <li>Outputs the final main.js file.</li>
 </ol>
 <p>This task can now be run with <code class="b-inline-code">gulp js</code>.</p>
@@ -289,7 +288,7 @@ exports.js = js;</code></pre>
 
 function watch () {
     gulp.watch('./assets/scss/**/*.scss', css);
-    gulp.watch(./assets/js/*.js', js);
+    gulp.watch('./assets/js/*.js', js);
 }
 
 exports.watch = watch;</code></pre>
@@ -315,7 +314,7 @@ exports.watch = watch;</code></pre>
 <li>Returning an observable</li>
 <li>Using an error-first callback</li>
 </ol>
-<p>Gulp has examples of how to use each method which you can view <a title="Signalling async completion in gulp tasks" href="https://gulpjs.com/docs/en/getting-started/async-completion#no-synchronous-tasks" target="_blank" rel="noopener">here</a>. If you get a "<em>Did you forget to signal async completion?</em><em style="box-sizing: border-box; color: #1c1e21; font-family: Poppins, sans-serif; font-size: 15px; background-color: #ffffff;">" </em>error from one of your tasks, none of the methods above have been used.</p></div>
+<p>Gulp has examples of how to use each method which you can view <a title="Signalling async completion in gulp tasks" href="https://gulpjs.com/docs/en/getting-started/async-completion" target="_blank" rel="noopener">here</a>. If you get a "<em>Did you forget to signal async completion?</em><em style="box-sizing: border-box; color: #1c1e21; font-family: Poppins, sans-serif; font-size: 15px; background-color: #ffffff;">" </em>error from one of your tasks, none of the methods above have been used.</p></div>
         </article>
 
         <aside class="post__sidebar">
@@ -331,7 +330,7 @@ exports.watch = watch;</code></pre>
       
         <a class="sidebar-pod__row" href="/posts/precompiling-nunjucks.html" title="Pre-compiling Nunjucks templates with Gulp">
           <span class="sidebar-pod__title">Pre-compiling Nunjucks templates with Gulp</span>
-          <span class="sidebar-pod__date">7/12/2020</span>
+          <span class="sidebar-pod__date">5/1/2021</span>
         </a>
       
 
@@ -351,18 +350,14 @@ exports.watch = watch;</code></pre>
         
         
         
-      
-        
-        
-        
-      
-        
-        
-        
           <a class="sidebar-pod__row" href="/posts/precompiling-nunjucks.html" title="Pre-compiling Nunjucks templates with Gulp">
             <span class="sidebar-pod__title">Pre-compiling Nunjucks templates with Gulp</span>
-            <span class="sidebar-pod__date">7/12/2020</span>
+            <span class="sidebar-pod__date">5/1/2021</span>
           </a>
+        
+      
+        
+        
         
       
         
@@ -374,8 +369,12 @@ exports.watch = watch;</code></pre>
         
           <a class="sidebar-pod__row" href="/posts/integrating-gulp-into-your-workflow.html" title="Integrating Gulp into your workflow">
             <span class="sidebar-pod__title">Integrating Gulp into your workflow</span>
-            <span class="sidebar-pod__date">25/12/2019</span>
+            <span class="sidebar-pod__date">8/12/2020</span>
           </a>
+        
+      
+        
+        
         
       
   </div>
@@ -422,7 +421,7 @@ exports.watch = watch;</code></pre>
 </footer>
 
     <!-- inject:js -->
-    <script src="/assets/js/main.js?v=202103225732611"></script>
+    <script src="/assets/js/main.js?v=20210425328117"></script>
     <!-- endinject -->
 
     

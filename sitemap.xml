@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+    <url>
+        
+        <loc>https://blog.liamsnowdon.uk/</loc>
+    
+        <image:image>
+            <image:loc>https://blog.liamsnowdon.uk/assets/images/posts/precompiling-nunjucks/precompiling-nunjucks-thumbnail.jpg</image:loc>
+        </image:image>
+    
+        <image:image>
+            <image:loc>https://blog.liamsnowdon.uk/assets/images/posts/mobile-button-hover-states/mobile-button-hover-states-thumbnail.jpg</image:loc>
+        </image:image>
+    
+        <image:image>
+            <image:loc>https://blog.liamsnowdon.uk/assets/images/posts/handling-responsive-images/handling-responsive-images-thumbnail.jpg</image:loc>
+        </image:image>
+    
+        <image:image>
+            <image:loc>https://blog.liamsnowdon.uk/assets/images/posts/gulp/gulp-thumbnail.jpg</image:loc>
+        </image:image>
+    
+        <image:image>
+            <image:loc>https://blog.liamsnowdon.uk/assets/images/posts/new-blog/new-blog-thumbnail.jpg</image:loc>
+        </image:image>
+    
+        <image:image>
+            <image:loc>https://blog.liamsnowdon.uk/assets/images/posts/precompiling-nunjucks/precompiling-nunjucks-thumbnail.jpg</image:loc>
+        </image:image>
+    
+        <image:image>
+            <image:loc>https://blog.liamsnowdon.uk/assets/images/posts/handling-responsive-images/handling-responsive-images-thumbnail.jpg</image:loc>
+        </image:image>
+    
+        <image:image>
+            <image:loc>https://blog.liamsnowdon.uk/assets/images/posts/mobile-button-hover-states/mobile-button-hover-states-thumbnail.jpg</image:loc>
+        </image:image>
+    
+        <image:image>
+            <image:loc>https://blog.liamsnowdon.uk/assets/images/posts/precompiling-nunjucks/precompiling-nunjucks-thumbnail.jpg</image:loc>
+        </image:image>
+    
+        <image:image>
+            <image:loc>https://blog.liamsnowdon.uk/assets/images/posts/precompiling-nunjucks/precompiling-nunjucks-thumbnail.jpg</image:loc>
+        </image:image>
+    
+        <image:image>
+            <image:loc>https://blog.liamsnowdon.uk/assets/images/posts/mobile-button-hover-states/mobile-button-hover-states-thumbnail.jpg</image:loc>
+        </image:image>
+    
+        <image:image>
+            <image:loc>https://blog.liamsnowdon.uk/assets/images/posts/handling-responsive-images/handling-responsive-images-thumbnail.jpg</image:loc>
+        </image:image>
+    
+        <image:image>
+            <image:loc>https://blog.liamsnowdon.uk/assets/images/posts/gulp/gulp-thumbnail.jpg</image:loc>
+        </image:image>
+    
+        <image:image>
+            <image:loc>https://blog.liamsnowdon.uk/assets/images/posts/new-blog/new-blog-thumbnail.jpg</image:loc>
+        </image:image>
+    
+        
+        <changefreq>monthly</changefreq>
+    
+        
+        <priority>1.0</priority>
+    
+    </url>
+    <url>
+        
+        <loc>https://blog.liamsnowdon.uk/categories/css</loc>
+    
+        <image:image>
+            <image:loc>https://blog.liamsnowdon.uk/assets/images/posts/mobile-button-hover-states/mobile-button-hover-states-thumbnail.jpg</image:loc>
+        </image:image>
+    
+        
+        <changefreq>monthly</changefreq>
+    
+        
+        <priority>0.8</priority>
+    
+    </url>
+    <url>
+        
+        <loc>https://blog.liamsnowdon.uk/categories/general</loc>
+    
+        <image:image>
+            <image:loc>https://blog.liamsnowdon.uk/assets/images/posts/new-blog/new-blog-thumbnail.jpg</image:loc>
+        </image:image>
+    
+        
+        <changefreq>monthly</changefreq>
+    
+        
+        <priority>0.8</priority>
+    
+    </url>
+    <url>
+        
+        <loc>https://blog.liamsnowdon.uk/categories/html</loc>
+    
+        <image:image>
+            <image:loc>https://blog.liamsnowdon.uk/assets/images/posts/handling-responsive-images/handling-responsive-images-thumbnail.jpg</image:loc>
+        </image:image>
+    
+        
+        <changefreq>monthly</changefreq>
+    
+        
+        <priority>0.8</priority>
+    
+    </url>
+    <url>
+        
+        <loc>https://blog.liamsnowdon.uk/categories/</loc>
+    
+        <image:image>
+            <image:loc>https://blog.liamsnowdon.uk/assets/images/categories/html/html.jpg</image:loc>
+        </image:image>
+    
+        <image:image>
+            <image:loc>https://blog.liamsnowdon.uk/assets/images/categories/css/css.jpg</image:loc>
+        </image:image>
+    
+        <image:image>
+            <image:loc>https://blog.liamsnowdon.uk/assets/images/categories/javascript/javascript.jpg</image:loc>
+        </image:image>
+    
+        <image:image>
+            <image:loc>https://blog.liamsnowdon.uk/assets/images/blog.jpg</image:loc>
+        </image:image>
+    
+        
+        <changefreq>yearly</changefreq>
+    
+        
+        <priority>0.5</priority>
+    
+    </url>
+    <url>
+        
+        <loc>https://blog.liamsnowdon.uk/categories/javascript</loc>
+    
+        <image:image>
+            <image:loc>https://blog.liamsnowdon.uk/assets/images/posts/precompiling-nunjucks/precompiling-nunjucks-thumbnail.jpg</image:loc>
+        </image:image>
+    
+        <image:image>
+            <image:loc>https://blog.liamsnowdon.uk/assets/images/posts/gulp/gulp-thumbnail.jpg</image:loc>
+        </image:image>
+    
+        
+        <changefreq>monthly</changefreq>
+    
+        
+        <priority>0.8</priority>
+    
+    </url>
+    <url>
+        
+        <loc>https://blog.liamsnowdon.uk/posts/handling-responsive-images</loc>
+    
+        <image:image>
+            <image:loc>https://blog.liamsnowdon.uk/assets/images/posts/handling-responsive-images/handling-responsive-images-thumbnail.jpg</image:loc>
+        </image:image>
+    
+        <image:image>
+            <image:loc>https://caniuse.bitsofco.de/image/srcset.jpg</image:loc>
+        </image:image>
+    
+        <image:image>
+            <image:loc>https://caniuse.bitsofco.de/image/picture.jpg</image:loc>
+        </image:image>
+    
+        
+        <priority>0.5</priority>
+    
+    </url>
+    <url>
+        
+        <loc>https://blog.liamsnowdon.uk/posts/integrating-gulp-into-your-workflow</loc>
+    
+        <image:image>
+            <image:loc>https://blog.liamsnowdon.uk/assets/images/posts/gulp/gulp-thumbnail.jpg</image:loc>
+        </image:image>
+    
+        
+        <priority>0.5</priority>
+    
+    </url>
+    <url>
+        
+        <loc>https://blog.liamsnowdon.uk/posts/mobile-button-hover-states</loc>
+    
+        <image:image>
+            <image:loc>https://blog.liamsnowdon.uk/assets/images/posts/mobile-button-hover-states/mobile-button-hover-states-thumbnail.jpg</image:loc>
+        </image:image>
+    
+        <image:image>
+            <image:loc>https://caniuse.bitsofco.de/image/css-media-interaction.jpg</image:loc>
+        </image:image>
+    
+        
+        <priority>0.5</priority>
+    
+    </url>
+    <url>
+        
+        <loc>https://blog.liamsnowdon.uk/posts/new-blog</loc>
+    
+        <image:image>
+            <image:loc>https://blog.liamsnowdon.uk/assets/images/posts/new-blog/new-blog-thumbnail.jpg</image:loc>
+        </image:image>
+    
+        <image:image>
+            <image:loc>https://caniuse.bitsofco.de/image/css-placeholder-shown.jpg</image:loc>
+        </image:image>
+    
+        
+        <priority>0.5</priority>
+    
+    </url>
+    <url>
+        
+        <loc>https://blog.liamsnowdon.uk/posts/precompiling-nunjucks</loc>
+    
+        <image:image>
+            <image:loc>https://blog.liamsnowdon.uk/assets/images/posts/precompiling-nunjucks/precompiling-nunjucks-thumbnail.jpg</image:loc>
+        </image:image>
+    
+        
+        <priority>0.5</priority>
+    
+    </url>
+    <url>
+        
+        <loc>https://blog.liamsnowdon.uk/tags/</loc>
+    
+        <image:image>
+            <image:loc>https://blog.liamsnowdon.uk/assets/images/tags/responsive.jpg</image:loc>
+        </image:image>
+    
+        <image:image>
+            <image:loc>https://blog.liamsnowdon.uk/assets/images/tags/workflow.jpg</image:loc>
+        </image:image>
+    
+        
+        <changefreq>monthly</changefreq>
+    
+        
+        <priority>0.5</priority>
+    
+    </url>
+    <url>
+        
+        <loc>https://blog.liamsnowdon.uk/tags/responsive</loc>
+    
+        <image:image>
+            <image:loc>https://blog.liamsnowdon.uk/assets/images/posts/mobile-button-hover-states/mobile-button-hover-states-thumbnail.jpg</image:loc>
+        </image:image>
+    
+        <image:image>
+            <image:loc>https://blog.liamsnowdon.uk/assets/images/posts/handling-responsive-images/handling-responsive-images-thumbnail.jpg</image:loc>
+        </image:image>
+    
+        
+        <changefreq>monthly</changefreq>
+    
+        
+        <priority>0.8</priority>
+    
+    </url>
+    <url>
+        
+        <loc>https://blog.liamsnowdon.uk/tags/workflow</loc>
+    
+        <image:image>
+            <image:loc>https://blog.liamsnowdon.uk/assets/images/posts/precompiling-nunjucks/precompiling-nunjucks-thumbnail.jpg</image:loc>
+        </image:image>
+    
+        <image:image>
+            <image:loc>https://blog.liamsnowdon.uk/assets/images/posts/gulp/gulp-thumbnail.jpg</image:loc>
+        </image:image>
+    
+        
+        <changefreq>monthly</changefreq>
+    
+        
+        <priority>0.8</priority>
+    
+    </url>
+</urlset>

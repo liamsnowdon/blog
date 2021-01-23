@@ -5,6 +5,10 @@
         <loc>https://blog.liamsnowdon.uk/</loc>
     
         <image:image>
+            <image:loc>https://blog.liamsnowdon.uk/assets/images/posts/sass-7-1-pattern/sass-7-1-pattern-thumbnail.jpg</image:loc>
+        </image:image>
+    
+        <image:image>
             <image:loc>https://blog.liamsnowdon.uk/assets/images/posts/precompiling-nunjucks/precompiling-nunjucks-thumbnail.jpg</image:loc>
         </image:image>
     
@@ -21,11 +25,7 @@
         </image:image>
     
         <image:image>
-            <image:loc>https://blog.liamsnowdon.uk/assets/images/posts/new-blog/new-blog-thumbnail.jpg</image:loc>
-        </image:image>
-    
-        <image:image>
-            <image:loc>https://blog.liamsnowdon.uk/assets/images/posts/precompiling-nunjucks/precompiling-nunjucks-thumbnail.jpg</image:loc>
+            <image:loc>https://blog.liamsnowdon.uk/assets/images/posts/sass-7-1-pattern/sass-7-1-pattern-thumbnail.jpg</image:loc>
         </image:image>
     
         <image:image>
@@ -33,11 +33,15 @@
         </image:image>
     
         <image:image>
-            <image:loc>https://blog.liamsnowdon.uk/assets/images/posts/mobile-button-hover-states/mobile-button-hover-states-thumbnail.jpg</image:loc>
+            <image:loc>https://blog.liamsnowdon.uk/assets/images/posts/sass-7-1-pattern/sass-7-1-pattern-thumbnail.jpg</image:loc>
         </image:image>
     
         <image:image>
             <image:loc>https://blog.liamsnowdon.uk/assets/images/posts/precompiling-nunjucks/precompiling-nunjucks-thumbnail.jpg</image:loc>
+        </image:image>
+    
+        <image:image>
+            <image:loc>https://blog.liamsnowdon.uk/assets/images/posts/sass-7-1-pattern/sass-7-1-pattern-thumbnail.jpg</image:loc>
         </image:image>
     
         <image:image>
@@ -70,6 +74,10 @@
     <url>
         
         <loc>https://blog.liamsnowdon.uk/categories/css</loc>
+    
+        <image:image>
+            <image:loc>https://blog.liamsnowdon.uk/assets/images/posts/sass-7-1-pattern/sass-7-1-pattern-thumbnail.jpg</image:loc>
+        </image:image>
     
         <image:image>
             <image:loc>https://blog.liamsnowdon.uk/assets/images/posts/mobile-button-hover-states/mobile-button-hover-states-thumbnail.jpg</image:loc>
@@ -236,6 +244,18 @@
     </url>
     <url>
         
+        <loc>https://blog.liamsnowdon.uk/posts/sass-7-1-pattern</loc>
+    
+        <image:image>
+            <image:loc>https://blog.liamsnowdon.uk/assets/images/posts/sass-7-1-pattern/sass-7-1-pattern-thumbnail.jpg</image:loc>
+        </image:image>
+    
+        
+        <priority>0.5</priority>
+    
+    </url>
+    <url>
+        
         <loc>https://blog.liamsnowdon.uk/tags/</loc>
     
         <image:image>
@@ -244,6 +264,10 @@
     
         <image:image>
             <image:loc>https://blog.liamsnowdon.uk/assets/images/tags/workflow.jpg</image:loc>
+        </image:image>
+    
+        <image:image>
+            <image:loc>https://blog.liamsnowdon.uk/assets/images/tags/sass.jpg</image:loc>
         </image:image>
     
         
@@ -263,6 +287,21 @@
     
         <image:image>
             <image:loc>https://blog.liamsnowdon.uk/assets/images/posts/handling-responsive-images/handling-responsive-images-thumbnail.jpg</image:loc>
+        </image:image>
+    
+        
+        <changefreq>monthly</changefreq>
+    
+        
+        <priority>0.8</priority>
+    
+    </url>
+    <url>
+        
+        <loc>https://blog.liamsnowdon.uk/tags/sass</loc>
+    
+        <image:image>
+            <image:loc>https://blog.liamsnowdon.uk/assets/images/posts/sass-7-1-pattern/sass-7-1-pattern-thumbnail.jpg</image:loc>
         </image:image>
     
         

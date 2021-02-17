@@ -54,10 +54,10 @@
       gtag('config', 'G-PPSNMSKW2B');
     </script>
 
-    <script src="https://unpkg.com/scrollreveal@4.0.7/dist/scrollreveal.js"></script>
+    <script src="https://unpkg.com/scrollreveal@4.0.7/dist/scrollreveal.min.js"></script>
 
     <!-- inject:css -->
-    <link rel="stylesheet" href="/assets/css/styles.css?v=202102341411330">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/liamsnowdon/blog@gh-pages/assets/css/styles-9609126007.css">
     <!-- endinject -->
   </head>
   <body>
@@ -91,16 +91,13 @@
   <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v9.0" nonce="GqtN5jsR"></script>
   <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-  
-  
-
   <div class="post-hero">
     <picture class="post-hero__background">
       <source 
-        srcset="/assets/images/posts/sass-7-1-pattern/sass-7-1-pattern-header.jpg"
+        srcset="https://cdn.jsdelivr.net/gh/liamsnowdon/blog@gh-pages/assets/images/posts/sass-7-1-pattern/sass-7-1-pattern-header.jpg"
         media="(min-width: 768px)"
       >
-      <img src="/assets/images/posts/sass-7-1-pattern/sass-7-1-pattern-thumbnail.jpg" alt="Using the 7-1 pattern for better Sass architecture" />
+      <img src="https://cdn.jsdelivr.net/gh/liamsnowdon/blog@gh-pages/assets/images/posts/sass-7-1-pattern/sass-7-1-pattern-thumbnail.jpg" alt="Using the 7-1 pattern for better Sass architecture" />
     </picture>
     <div class="l-content p-relative">
       <div class="post-hero__content load-hidden js-hero-text">
@@ -128,7 +125,6 @@
       </div>
     </div>
   </div>
-
   
   <main>
     <nav class="l-sticky-nav">
@@ -161,34 +157,31 @@
   </ul>
 </nav>
 
-    
-  
+    <div id="post" class="l-wrapper">
+      <div class="l-content">
+        <nav class="c-breadcrumbs">
+          <ul class="c-breadcrumbs__links">
+            <li class="c-breadcrumbs__link">
+              <a href="/">Home</a>
+            </li>
 
-  <div id="post" class="l-wrapper">
-    <div class="l-content">
-      <nav class="c-breadcrumbs">
-        <ul class="c-breadcrumbs__links">
-          <li class="c-breadcrumbs__link">
-            <a href="/">Home</a>
-          </li>
+            <li class="c-breadcrumbs__link">
+              <a href="/categories">Categories</a>
+            </li>
 
-          <li class="c-breadcrumbs__link">
-            <a href="/categories">Categories</a>
-          </li>
+            <li class="c-breadcrumbs__link">
+              <a href="/categories/css">CSS</a>
+            </li>
 
-          <li class="c-breadcrumbs__link">
-            <a href="/categories/css">CSS</a>
-          </li>
-
-          <li class="c-breadcrumbs__link c-breadcrumbs__link--active-page">
-            Using the 7-1 pattern for better Sass architecture
-          </li>
-        </ul>
-      </nav>
-        
-      <div class="post">
-        <article class="post__article">
-          <div><p>Despite the pure joy I get when having to dive into a giant mess of a CSS file trying to find a specific set of styles for a component, I much prefer having everything split across multiple files like my JavaScript. This is very common to do in Sass with <code class="b-inline-code">@import</code> -ing Sass files into another. The 7-1 pattern is a common architecture pattern to use when splitting out Sass files into different directories. These are usually:</p>
+            <li class="c-breadcrumbs__link c-breadcrumbs__link--active-page">
+              Using the 7-1 pattern for better Sass architecture
+            </li>
+          </ul>
+        </nav>
+          
+        <div class="post">
+          <article class="post__article">
+            <div><p>Despite the pure joy I get when having to dive into a giant mess of a CSS file trying to find a specific set of styles for a component, I much prefer having everything split across multiple files like my JavaScript. This is very common to do in Sass with <code class="b-inline-code">@import</code> -ing Sass files into another. The 7-1 pattern is a common architecture pattern to use when splitting out Sass files into different directories. These are usually:</p>
 <ul>
 <li>abstracts</li>
 <li>base</li>
@@ -318,85 +311,79 @@
 <p>&nbsp;</p>
 <h2>Conclusion</h2>
 <p>Splitting out the CSS across multiple files in an organised architecture makes it a lot easier to manage and find exactly what you're looking for. Each file is dedicated to its own thing rather than having a file contain a bunch of other styles too.</p></div>
-        </article>
+          </article>
 
-        <aside class="post__sidebar">
-          
-  <div class="sidebar-pod">
-    <div class="sidebar-pod__header">
-        <h4>Related posts</h4>
-    </div>
+          <aside class="post__sidebar">
+            <div class="sidebar-pod">
+              <div class="sidebar-pod__header">
+                  <h4>Related posts</h4>
+              </div>
 
-    <div class="sidebar-pod__content">
-      
+              <div class="sidebar-pod__content">
+                
 
-      
+                
 
-      
-        <div class="sidebar-pod__row is-empty">
-            Could not find any related posts.
+                
+                  <div class="sidebar-pod__row is-empty">
+                      Could not find any related posts.
+                  </div>
+                
+              </div>
+            </div>
+
+            <div class="sidebar-pod">
+              <div class="sidebar-pod__header">
+                <h4>Most recent in CSS</h4>
+              </div>
+              <div class="sidebar-pod__content">
+                
+                  
+                  
+                  
+                    <a class="sidebar-pod__row" href="/posts/sass-7-1-pattern" title="Using the 7-1 pattern for better Sass architecture">
+                      <span class="sidebar-pod__title">Using the 7-1 pattern for better Sass architecture</span>
+                      <span class="sidebar-pod__date">24/1/2021</span>
+                    </a>
+                  
+                
+                  
+                  
+                  
+                
+                  
+                  
+                  
+                    <a class="sidebar-pod__row" href="/posts/mobile-button-hover-states" title="Handling button hover states for touchscreen devices">
+                      <span class="sidebar-pod__title">Handling button hover states for touchscreen devices</span>
+                      <span class="sidebar-pod__date">22/12/2020</span>
+                    </a>
+                  
+                
+                  
+                  
+                  
+                
+                  
+                  
+                  
+                
+                  
+                  
+                  
+                
+              </div>
+            </div>
+
+            <div class="post__share-buttons">
+              <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false" data-size="large">Tweet</a>
+
+              <div class="fb-share-button" data-href="https://blog.liamsnowdon.uk/posts/sass-7-1-pattern" data-layout="button" data-size="large"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>
+            </div>
+          </aside>
         </div>
-      
-    </div>
-  </div>
-
-          
-  
-
-  <div class="sidebar-pod">
-    <div class="sidebar-pod__header">
-      <h4>Most recent in CSS</h4>
-    </div>
-    <div class="sidebar-pod__content">
-      
-        
-        
-        
-          <a class="sidebar-pod__row" href="/posts/sass-7-1-pattern" title="Using the 7-1 pattern for better Sass architecture">
-            <span class="sidebar-pod__title">Using the 7-1 pattern for better Sass architecture</span>
-            <span class="sidebar-pod__date">24/1/2021</span>
-          </a>
-        
-      
-        
-        
-        
-      
-        
-        
-        
-          <a class="sidebar-pod__row" href="/posts/mobile-button-hover-states" title="Handling button hover states for touchscreen devices">
-            <span class="sidebar-pod__title">Handling button hover states for touchscreen devices</span>
-            <span class="sidebar-pod__date">22/12/2020</span>
-          </a>
-        
-      
-        
-        
-        
-      
-        
-        
-        
-      
-        
-        
-        
-      
-  </div>
-</div>
-
-
-          <div class="post__share-buttons">
-            <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false" data-size="large">Tweet</a>
-
-            <div class="fb-share-button" data-href="https://blog.liamsnowdon.uk/posts/sass-7-1-pattern" data-layout="button" data-size="large"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>
-          </div>
-        </aside>
       </div>
     </div>
-  </div>
-
   </main>
 
 
@@ -428,7 +415,7 @@
 </footer>
 
     <!-- inject:js -->
-    <script src="/assets/js/main.js?v=202102341411330"></script>
+    <script src="https://cdn.jsdelivr.net/gh/liamsnowdon/blog@gh-pages/assets/js/main-8c6edcafde.js"></script>
     <!-- endinject -->
 
     

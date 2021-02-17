@@ -54,10 +54,10 @@
       gtag('config', 'G-PPSNMSKW2B');
     </script>
 
-    <script src="https://unpkg.com/scrollreveal@4.0.7/dist/scrollreveal.js"></script>
+    <script src="https://unpkg.com/scrollreveal@4.0.7/dist/scrollreveal.min.js"></script>
 
     <!-- inject:css -->
-    <link rel="stylesheet" href="/assets/css/styles.css?v=202102341411330">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/liamsnowdon/blog@gh-pages/assets/css/styles-9609126007.css">
     <!-- endinject -->
   </head>
   <body>
@@ -91,16 +91,13 @@
   <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v9.0" nonce="GqtN5jsR"></script>
   <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-  
-  
-
   <div class="post-hero">
     <picture class="post-hero__background">
       <source 
-        srcset="/assets/images/posts/handling-responsive-images/handling-responsive-images-header.jpg"
+        srcset="https://cdn.jsdelivr.net/gh/liamsnowdon/blog@gh-pages/assets/images/posts/handling-responsive-images/handling-responsive-images-header.jpg"
         media="(min-width: 768px)"
       >
-      <img src="/assets/images/posts/handling-responsive-images/handling-responsive-images-thumbnail.jpg" alt="Handling responsive images" />
+      <img src="https://cdn.jsdelivr.net/gh/liamsnowdon/blog@gh-pages/assets/images/posts/handling-responsive-images/handling-responsive-images-thumbnail.jpg" alt="Handling responsive images" />
     </picture>
     <div class="l-content p-relative">
       <div class="post-hero__content load-hidden js-hero-text">
@@ -128,7 +125,6 @@
       </div>
     </div>
   </div>
-
   
   <main>
     <nav class="l-sticky-nav">
@@ -161,34 +157,31 @@
   </ul>
 </nav>
 
-    
-  
+    <div id="post" class="l-wrapper">
+      <div class="l-content">
+        <nav class="c-breadcrumbs">
+          <ul class="c-breadcrumbs__links">
+            <li class="c-breadcrumbs__link">
+              <a href="/">Home</a>
+            </li>
 
-  <div id="post" class="l-wrapper">
-    <div class="l-content">
-      <nav class="c-breadcrumbs">
-        <ul class="c-breadcrumbs__links">
-          <li class="c-breadcrumbs__link">
-            <a href="/">Home</a>
-          </li>
+            <li class="c-breadcrumbs__link">
+              <a href="/categories">Categories</a>
+            </li>
 
-          <li class="c-breadcrumbs__link">
-            <a href="/categories">Categories</a>
-          </li>
+            <li class="c-breadcrumbs__link">
+              <a href="/categories/html">HTML</a>
+            </li>
 
-          <li class="c-breadcrumbs__link">
-            <a href="/categories/html">HTML</a>
-          </li>
-
-          <li class="c-breadcrumbs__link c-breadcrumbs__link--active-page">
-            Handling responsive images
-          </li>
-        </ul>
-      </nav>
-        
-      <div class="post">
-        <article class="post__article">
-          <div><p>It can be common to render different images in different situations, whether it is for retina screens or for different screen sizes. This can have a range of advantages:</p>
+            <li class="c-breadcrumbs__link c-breadcrumbs__link--active-page">
+              Handling responsive images
+            </li>
+          </ul>
+        </nav>
+          
+        <div class="post">
+          <article class="post__article">
+            <div><p>It can be common to render different images in different situations, whether it is for retina screens or for different screen sizes. This can have a range of advantages:</p>
 <ul>
 <li>A different image may be created specifically for mobile devices which would look better than using the image being used on desktop. This is called <strong>art direction</strong>.</li>
 <li>Having multiple image formats allows you to make the most of a browser's support for image format. It&rsquo;s good to load the best format possible to take full advantage of its benefits. WEBP images for example support animation and has smaller file sizes than JPEGs and PNGs.</li>
@@ -295,81 +288,75 @@
 <p>&nbsp;</p>
 <h2>Conclusion</h2>
 <p>I would say the best thing to use out of the options discussed above is probably the <code class="b-inline-code">&lt;picture&gt;</code> element as it gives you a lot more control and the browser will do exactly what you tell it, instead of making its own decisions about what image it thinks will be best to use. It's also a lot simpler to write than combining <code class="b-inline-code">srcset</code> and <code class="b-inline-code">sizes</code> together.</p></div>
-        </article>
+          </article>
 
-        <aside class="post__sidebar">
-          
-  <div class="sidebar-pod">
-    <div class="sidebar-pod__header">
-        <h4>Related posts</h4>
-    </div>
+          <aside class="post__sidebar">
+            <div class="sidebar-pod">
+              <div class="sidebar-pod__header">
+                  <h4>Related posts</h4>
+              </div>
 
-    <div class="sidebar-pod__content">
-      
+              <div class="sidebar-pod__content">
+                
 
-      
-        <a class="sidebar-pod__row" href="/posts/mobile-button-hover-states" title="Handling button hover states for touchscreen devices">
-          <span class="sidebar-pod__title">Handling button hover states for touchscreen devices</span>
-          <span class="sidebar-pod__date">22/12/2020</span>
-        </a>
-      
+                
+                  <a class="sidebar-pod__row" href="/posts/mobile-button-hover-states" title="Handling button hover states for touchscreen devices">
+                    <span class="sidebar-pod__title">Handling button hover states for touchscreen devices</span>
+                    <span class="sidebar-pod__date">22/12/2020</span>
+                  </a>
+                
 
-      
-    </div>
-  </div>
+                
+              </div>
+            </div>
 
-          
-  
+            <div class="sidebar-pod">
+              <div class="sidebar-pod__header">
+                <h4>Most recent in HTML</h4>
+              </div>
+              <div class="sidebar-pod__content">
+                
+                  
+                  
+                  
+                
+                  
+                  
+                  
+                
+                  
+                  
+                  
+                
+                  
+                  
+                  
+                    <a class="sidebar-pod__row" href="/posts/handling-responsive-images" title="Handling responsive images">
+                      <span class="sidebar-pod__title">Handling responsive images</span>
+                      <span class="sidebar-pod__date">15/12/2020</span>
+                    </a>
+                  
+                
+                  
+                  
+                  
+                
+                  
+                  
+                  
+                
+              </div>
+            </div>
 
-  <div class="sidebar-pod">
-    <div class="sidebar-pod__header">
-      <h4>Most recent in HTML</h4>
-    </div>
-    <div class="sidebar-pod__content">
-      
-        
-        
-        
-      
-        
-        
-        
-      
-        
-        
-        
-      
-        
-        
-        
-          <a class="sidebar-pod__row" href="/posts/handling-responsive-images" title="Handling responsive images">
-            <span class="sidebar-pod__title">Handling responsive images</span>
-            <span class="sidebar-pod__date">15/12/2020</span>
-          </a>
-        
-      
-        
-        
-        
-      
-        
-        
-        
-      
-  </div>
-</div>
+            <div class="post__share-buttons">
+              <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false" data-size="large">Tweet</a>
 
-
-          <div class="post__share-buttons">
-            <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false" data-size="large">Tweet</a>
-
-            <div class="fb-share-button" data-href="https://blog.liamsnowdon.uk/posts/handling-responsive-images" data-layout="button" data-size="large"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>
-          </div>
-        </aside>
+              <div class="fb-share-button" data-href="https://blog.liamsnowdon.uk/posts/handling-responsive-images" data-layout="button" data-size="large"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>
+            </div>
+          </aside>
+        </div>
       </div>
     </div>
-  </div>
-
   </main>
 
 
@@ -401,7 +388,7 @@
 </footer>
 
     <!-- inject:js -->
-    <script src="/assets/js/main.js?v=202102341411330"></script>
+    <script src="https://cdn.jsdelivr.net/gh/liamsnowdon/blog@gh-pages/assets/js/main-8c6edcafde.js"></script>
     <!-- endinject -->
 
     

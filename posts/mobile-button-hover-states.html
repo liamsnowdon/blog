@@ -54,10 +54,10 @@
       gtag('config', 'G-PPSNMSKW2B');
     </script>
 
-    <script src="https://unpkg.com/scrollreveal@4.0.7/dist/scrollreveal.js"></script>
+    <script src="https://unpkg.com/scrollreveal@4.0.7/dist/scrollreveal.min.js"></script>
 
     <!-- inject:css -->
-    <link rel="stylesheet" href="/assets/css/styles.css?v=202102341411330">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/liamsnowdon/blog@gh-pages/assets/css/styles-9609126007.css">
     <!-- endinject -->
   </head>
   <body>
@@ -91,16 +91,13 @@
   <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v9.0" nonce="GqtN5jsR"></script>
   <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-  
-  
-
   <div class="post-hero">
     <picture class="post-hero__background">
       <source 
-        srcset="/assets/images/posts/mobile-button-hover-states/mobile-button-hover-states-header.jpg"
+        srcset="https://cdn.jsdelivr.net/gh/liamsnowdon/blog@gh-pages/assets/images/posts/mobile-button-hover-states/mobile-button-hover-states-header.jpg"
         media="(min-width: 768px)"
       >
-      <img src="/assets/images/posts/mobile-button-hover-states/mobile-button-hover-states-thumbnail.jpg" alt="Handling button hover states for touchscreen devices" />
+      <img src="https://cdn.jsdelivr.net/gh/liamsnowdon/blog@gh-pages/assets/images/posts/mobile-button-hover-states/mobile-button-hover-states-thumbnail.jpg" alt="Handling button hover states for touchscreen devices" />
     </picture>
     <div class="l-content p-relative">
       <div class="post-hero__content load-hidden js-hero-text">
@@ -128,7 +125,6 @@
       </div>
     </div>
   </div>
-
   
   <main>
     <nav class="l-sticky-nav">
@@ -161,34 +157,31 @@
   </ul>
 </nav>
 
-    
-  
+    <div id="post" class="l-wrapper">
+      <div class="l-content">
+        <nav class="c-breadcrumbs">
+          <ul class="c-breadcrumbs__links">
+            <li class="c-breadcrumbs__link">
+              <a href="/">Home</a>
+            </li>
 
-  <div id="post" class="l-wrapper">
-    <div class="l-content">
-      <nav class="c-breadcrumbs">
-        <ul class="c-breadcrumbs__links">
-          <li class="c-breadcrumbs__link">
-            <a href="/">Home</a>
-          </li>
+            <li class="c-breadcrumbs__link">
+              <a href="/categories">Categories</a>
+            </li>
 
-          <li class="c-breadcrumbs__link">
-            <a href="/categories">Categories</a>
-          </li>
+            <li class="c-breadcrumbs__link">
+              <a href="/categories/css">CSS</a>
+            </li>
 
-          <li class="c-breadcrumbs__link">
-            <a href="/categories/css">CSS</a>
-          </li>
-
-          <li class="c-breadcrumbs__link c-breadcrumbs__link--active-page">
-            Handling button hover states for touchscreen devices
-          </li>
-        </ul>
-      </nav>
-        
-      <div class="post">
-        <article class="post__article">
-          <div><p>On mobile and touchscreen devices, when an element with a <code class="b-inline-code">:hover</code> pseudo-class is pressed the hover state styles will persist even after the pointing device has been released. This might not be noticeable in many cases if a button takes you to another page, however if not, the issue will arise. This can be solved with using a <strong>hover media query</strong>.</p>
+            <li class="c-breadcrumbs__link c-breadcrumbs__link--active-page">
+              Handling button hover states for touchscreen devices
+            </li>
+          </ul>
+        </nav>
+          
+        <div class="post">
+          <article class="post__article">
+            <div><p>On mobile and touchscreen devices, when an element with a <code class="b-inline-code">:hover</code> pseudo-class is pressed the hover state styles will persist even after the pointing device has been released. This might not be noticeable in many cases if a button takes you to another page, however if not, the issue will arise. This can be solved with using a <strong>hover media query</strong>.</p>
 <p>The W3 spec defines it as the following:</p>
 <blockquote>
 <p>The hover media feature is used to query the user&rsquo;s ability to hover over elements on the page with the primary pointing device. If a device has multiple pointing devices, the&nbsp;hover media feature must reflect the characteristics of the &ldquo;primary&rdquo; pointing device, as determined by the user agent.</p>
@@ -232,86 +225,80 @@
 <p>&nbsp;</p>
 <h2>Conclusion</h2>
 <p>This will solve those issues with buttons persisting their hover styles on mobile. There are a few other interaction media features: "<strong>pointer</strong>",&nbsp;"<strong>any-pointer</strong>" and "<strong>any-hover</strong>". They're worth a read on the <a title="All Available Interaction Capabilities: the any-pointer and any-hover features" href="https://www.w3.org/TR/mediaqueries-4/#any-input" target="_blank" rel="noopener">W3 spec</a>.</p></div>
-        </article>
+          </article>
 
-        <aside class="post__sidebar">
-          
-  <div class="sidebar-pod">
-    <div class="sidebar-pod__header">
-        <h4>Related posts</h4>
-    </div>
+          <aside class="post__sidebar">
+            <div class="sidebar-pod">
+              <div class="sidebar-pod__header">
+                  <h4>Related posts</h4>
+              </div>
 
-    <div class="sidebar-pod__content">
-      
+              <div class="sidebar-pod__content">
+                
 
-      
-        <a class="sidebar-pod__row" href="/posts/handling-responsive-images" title="Handling responsive images">
-          <span class="sidebar-pod__title">Handling responsive images</span>
-          <span class="sidebar-pod__date">15/12/2020</span>
-        </a>
-      
+                
+                  <a class="sidebar-pod__row" href="/posts/handling-responsive-images" title="Handling responsive images">
+                    <span class="sidebar-pod__title">Handling responsive images</span>
+                    <span class="sidebar-pod__date">15/12/2020</span>
+                  </a>
+                
 
-      
-    </div>
-  </div>
+                
+              </div>
+            </div>
 
-          
-  
+            <div class="sidebar-pod">
+              <div class="sidebar-pod__header">
+                <h4>Most recent in CSS</h4>
+              </div>
+              <div class="sidebar-pod__content">
+                
+                  
+                  
+                  
+                    <a class="sidebar-pod__row" href="/posts/sass-7-1-pattern" title="Using the 7-1 pattern for better Sass architecture">
+                      <span class="sidebar-pod__title">Using the 7-1 pattern for better Sass architecture</span>
+                      <span class="sidebar-pod__date">24/1/2021</span>
+                    </a>
+                  
+                
+                  
+                  
+                  
+                
+                  
+                  
+                  
+                    <a class="sidebar-pod__row" href="/posts/mobile-button-hover-states" title="Handling button hover states for touchscreen devices">
+                      <span class="sidebar-pod__title">Handling button hover states for touchscreen devices</span>
+                      <span class="sidebar-pod__date">22/12/2020</span>
+                    </a>
+                  
+                
+                  
+                  
+                  
+                
+                  
+                  
+                  
+                
+                  
+                  
+                  
+                
+              </div>
+            </div>
 
-  <div class="sidebar-pod">
-    <div class="sidebar-pod__header">
-      <h4>Most recent in CSS</h4>
-    </div>
-    <div class="sidebar-pod__content">
-      
-        
-        
-        
-          <a class="sidebar-pod__row" href="/posts/sass-7-1-pattern" title="Using the 7-1 pattern for better Sass architecture">
-            <span class="sidebar-pod__title">Using the 7-1 pattern for better Sass architecture</span>
-            <span class="sidebar-pod__date">24/1/2021</span>
-          </a>
-        
-      
-        
-        
-        
-      
-        
-        
-        
-          <a class="sidebar-pod__row" href="/posts/mobile-button-hover-states" title="Handling button hover states for touchscreen devices">
-            <span class="sidebar-pod__title">Handling button hover states for touchscreen devices</span>
-            <span class="sidebar-pod__date">22/12/2020</span>
-          </a>
-        
-      
-        
-        
-        
-      
-        
-        
-        
-      
-        
-        
-        
-      
-  </div>
-</div>
+            <div class="post__share-buttons">
+              <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false" data-size="large">Tweet</a>
 
-
-          <div class="post__share-buttons">
-            <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false" data-size="large">Tweet</a>
-
-            <div class="fb-share-button" data-href="https://blog.liamsnowdon.uk/posts/mobile-button-hover-states" data-layout="button" data-size="large"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>
-          </div>
-        </aside>
+              <div class="fb-share-button" data-href="https://blog.liamsnowdon.uk/posts/mobile-button-hover-states" data-layout="button" data-size="large"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>
+            </div>
+          </aside>
+        </div>
       </div>
     </div>
-  </div>
-
   </main>
 
 
@@ -343,7 +330,7 @@
 </footer>
 
     <!-- inject:js -->
-    <script src="/assets/js/main.js?v=202102341411330"></script>
+    <script src="https://cdn.jsdelivr.net/gh/liamsnowdon/blog@gh-pages/assets/js/main-8c6edcafde.js"></script>
     <!-- endinject -->
 
     

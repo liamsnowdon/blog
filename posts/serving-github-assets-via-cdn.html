@@ -7,28 +7,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1">
     
-    <title>Handling button hover states for touchscreen devices | Liam Snowdon's Blog</title>
+    <title>Serving GitHub assets via a CDN for improved performance | Liam Snowdon's Blog</title>
     <meta name="robots" content="index, follow">
-    <meta name="description" content="On mobile devices hover states tend to stick unlike desktop. The workaround is to use a special media query.">
+    <meta name="description" content="Using a content distribution network increases performance by serving cached resources from different servers around the world.">
     <meta name="author" content="Liam Snowdon">
 
-    <meta property="og:title" content="Handling button hover states for touchscreen devices | Liam Snowdon's Blog">
-    <meta property="og:description" content="On mobile devices hover states tend to stick unlike desktop. The workaround is to use a special media query.">
+    <meta property="og:title" content="Serving GitHub assets via a CDN for improved performance | Liam Snowdon's Blog">
+    <meta property="og:description" content="Using a content distribution network increases performance by serving cached resources from different servers around the world.">
     <meta property="og:type" content="article">
     
-  <meta property="article:published_time" content="2020-12-22T00:00:00.000Z">
+  <meta property="article:published_time" content="2021-02-18T00:00:00.000Z">
   <meta property="article:author" content="Liam Snowdon">
   
   
-    
 
-    <meta property="article:tag" content="Responsive">
-  
-
-    <meta property="og:image" content="https://blog.liamsnowdon.uk/assets/images/posts/mobile-button-hover-states/mobile-button-hover-states.jpg">
+    <meta property="og:image" content="https://blog.liamsnowdon.uk/assets/images/posts/serving-github-assets-cdn/serving-github-assets-cdn.jpg">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="627">
-    <meta property="og:url" content="https://blog.liamsnowdon.uk/posts/mobile-button-hover-states">
+    <meta property="og:url" content="https://blog.liamsnowdon.uk/posts/serving-github-assets-via-cdn">
     <meta property="og:site_name" content="Liam Snowdon | Blog">
     
     <meta name="twitter:card" content="summary">
@@ -94,32 +90,23 @@
   <div class="post-hero">
     <picture class="post-hero__background">
       <source 
-        srcset="https://cdn.jsdelivr.net/gh/liamsnowdon/blog@gh-pages/assets/images/posts/mobile-button-hover-states/mobile-button-hover-states-header.jpg"
+        srcset="https://cdn.jsdelivr.net/gh/liamsnowdon/blog@gh-pages/assets/images/posts/serving-github-assets-cdn/serving-github-assets-cdn-header.jpg"
         media="(min-width: 768px)"
       >
-      <img src="https://cdn.jsdelivr.net/gh/liamsnowdon/blog@gh-pages/assets/images/posts/mobile-button-hover-states/mobile-button-hover-states-thumbnail.jpg" alt="Handling button hover states for touchscreen devices" />
+      <img src="https://cdn.jsdelivr.net/gh/liamsnowdon/blog@gh-pages/assets/images/posts/serving-github-assets-cdn/serving-github-assets-cdn-thumbnail.jpg" alt="Serving GitHub assets via a CDN for improved performance" />
     </picture>
     <div class="l-content p-relative">
       <div class="post-hero__content load-hidden js-hero-text">
         <div class="post-hero__left">
-          <h1>Handling button hover states for touchscreen devices</h1>
-          <p>On mobile devices hover states tend to stick unlike desktop. The workaround is to use a special media query.</p>
+          <h1>Serving GitHub assets via a CDN for improved performance</h1>
+          <p>Using a content distribution network increases performance by serving cached resources from different servers around the world.</p>
         </div>
         
         <div class="post-hero__right">
-          <h5><strong>Posted:</strong> Tuesday 22nd December 2020</h5>
+          <h5><strong>Posted:</strong> Thursday 18th February 2021</h5>
             
-          <h5><strong>Category:</strong> <a href="/categories/css">CSS</a></h5>
+          <h5><strong>Category:</strong> <a href="/categories/html">HTML</a></h5>
           
-          
-            <h5>
-              <strong>Tags:</strong>
-              
-                
-                
-                <a href="/tags/responsive">responsive</a>
-              
-            </h5>
           
         </div>
       </div>
@@ -170,61 +157,59 @@
             </li>
 
             <li class="c-breadcrumbs__link">
-              <a href="/categories/css">CSS</a>
+              <a href="/categories/html">HTML</a>
             </li>
 
             <li class="c-breadcrumbs__link c-breadcrumbs__link--active-page">
-              Handling button hover states for touchscreen devices
+              Serving GitHub assets via a CDN for improved performance
             </li>
           </ul>
         </nav>
           
         <div class="post">
           <article class="post__article">
-            <div><p>On mobile and touchscreen devices, when an element with a <code class="b-inline-code">:hover</code> pseudo-class is pressed the hover state styles will persist even after the pointing device has been released. This might not be noticeable in many cases if a button takes you to another page, however if not, the issue will arise. This can be solved with using a <strong>hover media query</strong>.</p>
-<p>The W3 spec defines it as the following:</p>
+            <div><p>It is already common to load third-party libraries, frameworks and packages via a CDN such a <strong>jsdelivr</strong> or <strong>unpkg</strong>. For example, you can use the following script tag to load jQuery onto the page without having it in your project's directory:</p>
+<pre class="language-markup"><code>&lt;script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"&gt;&lt;/script&gt;</code></pre>
+<p>Jsdelivr also lets you load a file from a GitHub repository in a similar way:</p>
+<pre class="language-markup"><code>&lt;script src="https://cdn.jsdelivr.net/gh/user/repo@version/file"&gt;&lt;/script&gt;
+
+&lt;!-- images --&gt;
+&lt;img src="https://cdn.jsdelivr.net/gh/liamsnowdon/blog@gh-pages/assets/images/posts/sass-7-1-pattern/sass-7-1-pattern-thumbnail.jpg" /&gt;
+
+&lt;!-- css --&gt;
+&lt;link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/liamsnowdon/blog@gh-pages/assets/css/styles-9609126007.css"&gt;
+
+&lt;!-- javascript --&gt;
+&lt;script src="https://cdn.jsdelivr.net/gh/liamsnowdon/blog@gh-pages/assets/js/main-8c6edcafde.js"&gt;&lt;/script&gt;</code></pre>
+<p>The URL is formed of:</p>
+<ol>
+<li><strong>https://cdn.jsdelivr.net/gh/</strong> - beginning of URL, the "<strong>gh</strong>" part tells the CDN it is a GitHub file</li>
+<li><strong>user/</strong>&nbsp;- GitHub username</li>
+<li><strong>repo/</strong> - repository name</li>
+<li><strong>@version/</strong> - the branch, release, etc</li>
+<li><strong>file</strong> - the path to the file</li>
+</ol>
+<p>GTmetrix explains the advantages of using a CDN <a title="GTmetrix: Using a Content Delivery Network" href="https://gtmetrix.com/use-a-content-delivery-network-cdn.html" target="_blank" rel="noopener">here</a>.</p>
 <blockquote>
-<p>The hover media feature is used to query the user&rsquo;s ability to hover over elements on the page with the primary pointing device. If a device has multiple pointing devices, the&nbsp;hover media feature must reflect the characteristics of the &ldquo;primary&rdquo; pointing device, as determined by the user agent.</p>
+<p>A Content Delivery Network reduces latency by caching your page's static resources across different servers around the world.</p>
+<p>Depending on where your visitors are located, your page content is served from the closest server/CDN node.</p>
 </blockquote>
-<p>The value of the media query is either&nbsp;<strong>none</strong> or&nbsp;<strong>hover</strong>. Let's take a look at how it works:</p>
-<pre class="language-css"><code>/* _buttons.scss */
-
-.button {
-    background-color: #1997c6;
-    text-decoration: none;
-
-    &amp;:hover {
-        // Only apply hover styles on devices that support hover
-        @media (hover: hover) {
-            background-color: darken(#1997c6, 10%)
-        }
-    }
-}</code></pre>
-<p>In the example above, on any device that supports hovering over elements will darken the background colour. That's pretty much it!</p>
 <p>&nbsp;</p>
-<h2>Browser Compatibility</h2>
-<p>Browser support for <code class="b-inline-code">@media (hover: hover)</code> is pretty good nowadays.</p>
-<div class="ciu_embed" data-feature="css-media-interaction" data-periods="future_1,current,past_1,past_2" data-accessible-colours="false"><picture><source srcset="https://caniuse.bitsofco.de/image/css-media-interaction.webp" type="image/webp" /><source srcset="https://caniuse.bitsofco.de/image/css-media-interaction.png" type="image/png" /><img src="https://caniuse.bitsofco.de/image/css-media-interaction.jpg" alt="Data on support for the css-media-interaction feature across the major browsers from caniuse.com" /></picture></div>
-<p>Although, there is one problem you may have which is IE if you need to support it. There's a workaround for it though, it just involves using a reset.</p>
-<pre class="language-css"><code>/* _buttons.scss */
+<h2>Tips</h2>
+<p>Naturally, since the files are heavily cached it means any changes to that file will not be reflected in the CDN. A way around this is to use <strong>versioning</strong>. For example, on this blog I use the Gulp plugin <a title="gulp-rev" href="https://www.npmjs.com/package/gulp-rev" target="_blank" rel="noopener">gulp-rev</a> which adds a hash to the filename on build if the file has changed, turning <code class="b-inline-code">styles.scss</code> into <code class="b-inline-code">styles-9609126007.css</code>.&nbsp;</p>
+<p>Another tip is to create a helper function that adds this CDN link to an asset URL. I created a Nunjucks macro to handle this:&nbsp;</p>
+<pre class="language-markup"><code>&lt;!-- macros/asset-loader.njk --&gt;
+{% macro image(path) %}{{ data.env.cdnHost }}{{ path }}{% endmacro %}
 
-.button {
-    background-color: #1997c6;
-    text-decoration: none;
+&lt;!-- pages/index.njk --&gt;
+&lt;img src="{{ assetLoader.image(post.thumbnailImageUrl) }}" alt="{{ post.title }}" /&gt;
 
-    &amp;:hover {
-        // Hover states are done as normal so it works in IE
-        background-color: darken(#1997c6, 10%);
-          
-        // Reset hover states here for devices that don't support hover
-        @media (hover: none) {
-            background-color: #1997c6;
-        }
-    }
-}</code></pre>
+&lt;!-- index.html --&gt;
+&lt;img src="https://cdn.jsdelivr.net/gh/liamsnowdon/blog@gh-pages/assets/images/posts/sass-7-1-pattern/sass-7-1-pattern-thumbnail.jpg" class="c-recent-post__image" alt="Using the 7-1 pattern for better Sass architecture"&gt;</code></pre>
+<p>I wrote a post about using Nunjucks with Gulp <a title="Precompiling Nunjucks templates with Gulp" href="https://blog.liamsnowdon.uk/posts/precompiling-nunjucks">here</a>, which I use for this blog.</p>
 <p>&nbsp;</p>
 <h2>Conclusion</h2>
-<p>This will solve those issues with buttons persisting their hover styles on mobile. There are a few other interaction media features: "<strong>pointer</strong>",&nbsp;"<strong>any-pointer</strong>" and "<strong>any-hover</strong>". They're worth a read on the <a title="All Available Interaction Capabilities: the any-pointer and any-hover features" href="https://www.w3.org/TR/mediaqueries-4/#any-input" target="_blank" rel="noopener">W3 spec</a>.</p></div>
+<p>Using a CDN to serve cached static resources is a great way to boost page performance by providing a faster page experience to visitors. Using it for as many images, JavaScript and CSS files as possible will ensure they are loaded as fast as possible.</p></div>
           </article>
 
           <aside class="post__sidebar">
@@ -237,32 +222,27 @@
                 
 
                 
-                  <a class="sidebar-pod__row" href="/posts/handling-responsive-images" title="Handling responsive images">
-                    <span class="sidebar-pod__title">Handling responsive images</span>
-                    <span class="sidebar-pod__date">15/12/2020</span>
-                  </a>
-                
 
+                
+                  <div class="sidebar-pod__row is-empty">
+                      Could not find any related posts.
+                  </div>
                 
               </div>
             </div>
 
             <div class="sidebar-pod">
               <div class="sidebar-pod__header">
-                <h4>Most recent in CSS</h4>
+                <h4>Most recent in HTML</h4>
               </div>
               <div class="sidebar-pod__content">
                 
                   
                   
                   
-                
-                  
-                  
-                  
-                    <a class="sidebar-pod__row" href="/posts/sass-7-1-pattern" title="Using the 7-1 pattern for better Sass architecture">
-                      <span class="sidebar-pod__title">Using the 7-1 pattern for better Sass architecture</span>
-                      <span class="sidebar-pod__date">24/1/2021</span>
+                    <a class="sidebar-pod__row" href="/posts/serving-github-assets-via-cdn" title="Serving GitHub assets via a CDN for improved performance">
+                      <span class="sidebar-pod__title">Serving GitHub assets via a CDN for improved performance</span>
+                      <span class="sidebar-pod__date">18/2/2021</span>
                     </a>
                   
                 
@@ -273,14 +253,18 @@
                   
                   
                   
-                    <a class="sidebar-pod__row" href="/posts/mobile-button-hover-states" title="Handling button hover states for touchscreen devices">
-                      <span class="sidebar-pod__title">Handling button hover states for touchscreen devices</span>
-                      <span class="sidebar-pod__date">22/12/2020</span>
-                    </a>
+                
+                  
+                  
                   
                 
                   
                   
+                  
+                    <a class="sidebar-pod__row" href="/posts/handling-responsive-images" title="Handling responsive images">
+                      <span class="sidebar-pod__title">Handling responsive images</span>
+                      <span class="sidebar-pod__date">15/12/2020</span>
+                    </a>
                   
                 
                   
@@ -297,7 +281,7 @@
             <div class="post__share-buttons">
               <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false" data-size="large">Tweet</a>
 
-              <div class="fb-share-button" data-href="https://blog.liamsnowdon.uk/posts/mobile-button-hover-states" data-layout="button" data-size="large"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>
+              <div class="fb-share-button" data-href="https://blog.liamsnowdon.uk/posts/serving-github-assets-via-cdn" data-layout="button" data-size="large"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div>
             </div>
           </aside>
         </div>
